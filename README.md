@@ -1,10 +1,10 @@
 redirect url in settings plugin: http://YOUR_PUBLIC_CLIENT_ADDRESS/client/auth/google/callback  
   
-###Authorized JavaScript origins in Google Console    
+### Authorized JavaScript origins in Google Console    
 url 1 in console google API service: http://YOUR_PUBLIC_CLIENT_ADDRESS  
 url 2 in console google API service: http://YOUR_PUBLIC_SERVER_ADDRESS  
   
-###Authorized redirect URIs in Google Console    
+### Authorized redirect URIs in Google Console    
 url 1 in console google API service: http://YOUR_PUBLIC_CLIENT_ADDRESS/client/auth/google/callback  
 url 2 in console google API service: http://YOUR_PUBLIC_SERVER_ADDRESS/strapi-google-auth/user-profile  
   
