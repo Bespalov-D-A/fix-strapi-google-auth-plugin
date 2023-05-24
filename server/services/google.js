@@ -127,7 +127,7 @@ module.exports = ({ strapi }) => ({
           let password = await strapi.service("admin::auth").hashPassword(randomPass);
           let newUser = await strapi.db.query('plugin::users-permissions.user').create({
             data: {
-              username: name + ' ' + this.makeRandomPassword(4),
+              username: email + ' ' + this.makeRandomPassword(8),
               email,
               password,
               confirmed: true,
