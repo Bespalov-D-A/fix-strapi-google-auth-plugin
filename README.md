@@ -1,4 +1,14 @@
-# GoogleAuth
+redirect url in settings plugin: http://YOUR_PUBLIC_CLIENT_ADDRESS/client/auth/google/callback  
+  
+###Authorized JavaScript origins in Google Console    
+url 1 in console google API service: http://YOUR_PUBLIC_CLIENT_ADDRESS  
+url 2 in console google API service: http://YOUR_PUBLIC_SERVER_ADDRESS  
+  
+###Authorized redirect URIs in Google Console    
+url 1 in console google API service: http://YOUR_PUBLIC_CLIENT_ADDRESS/client/auth/google/callback  
+url 2 in console google API service: http://YOUR_PUBLIC_SERVER_ADDRESS/strapi-google-auth/user-profile  
+  
+# GoogleAuth  
 GoogleAuth helps you to easily create google authentication available for your users. It uses the official google-auth library to execute the actions. You can get it working in under 2 minutes in your application. EASY!
 
 ![Dashboard Screenshot](https://arju-public.s3.ap-south-1.amazonaws.com/Screenshot+2022-05-02+at+1.37.12+AM.png)
